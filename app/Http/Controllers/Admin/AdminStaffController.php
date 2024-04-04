@@ -23,7 +23,7 @@ class AdminStaffController extends Controller
   * Method to display list of admin staff
   * @author Vimal Patel
   * @param $request
-  * @since 18/09/2019
+  * @since 30/03/2023
   */
   public function index(Request $request)
   {
@@ -58,7 +58,7 @@ class AdminStaffController extends Controller
   * Method to add data of admin staff
   * @author Vimal Patel
   * @param $id
-  * @since 18/09/2019
+  * @since 30/03/2023
   */
   public function add(){
     $data = [];
@@ -69,7 +69,7 @@ class AdminStaffController extends Controller
   * Method to edit data of admin staff
   * @author Vimal Patel
   * @param $id
-  * @since 18/09/2019
+  * @since 30/03/2023
   */
   public function edit($id = null){
     $admindata = Admin::where('id', $id)->get();
@@ -81,7 +81,7 @@ class AdminStaffController extends Controller
   * Method to save data of admin staff
   * @author Vimal Patel
   * @param $id
-  * @since 18/09/2019
+  * @since 30/03/2023
   */
   public function saveStaff(Request $request)
   {
@@ -141,7 +141,7 @@ class AdminStaffController extends Controller
   * Method to validate data of admin staff form
   * @author Vimal Patel
   * @param $request
-  * @since 18/09/2019
+  * @since 30/03/2023
   */
   private function validateForm($request){
       $validFields = [
@@ -175,7 +175,7 @@ class AdminStaffController extends Controller
   * Method to delete data of admin staff
   * @author Vimal Patel
   * @param $id
-  * @since 18/09/2019
+  * @since 30/03/2023
   */
   public function delete($id = null){
     if (!empty($id)) {
