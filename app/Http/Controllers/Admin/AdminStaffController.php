@@ -18,7 +18,7 @@ use App\Traits\UploadTrait;
 
 class AdminStaffController extends Controller
 {
-
+  /** THIS IS JUST SAMPLE CODE FOR WRITE STANDARD CODE */
   /*
   * Method to display list of admin staff
   * @author Vimal Patel
